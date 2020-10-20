@@ -1,0 +1,17 @@
+html {
+    font-family: $special-font;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    //background-color: yellow;
+    //height: 200vh;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}

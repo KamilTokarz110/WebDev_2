@@ -1,0 +1,28 @@
+.services {
+    display: flex;
+    background-color: black;
+    height: 790px;
+    background-color: #70BFFF;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        //background-color: gray;
+    }
+}
+
+.content__cards {
+    display: flex;
+    flex-direction: column;
+
+
+
+    &-item {
+        text-align: center;
+        background-color: #fff;
+        width: 400px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+}
