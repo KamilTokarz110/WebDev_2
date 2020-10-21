@@ -1,5 +1,5 @@
 .services {
-    position: relative;
+    //position: relative;
     display: flex;
     background-color: black;
     display: row;
@@ -7,23 +7,24 @@
     background-color: #70BFFF;
 
     &__content {
+        ///position: relative;
         display: flex;
         //background-color: gray;
     }
 
     .services__logo {
-        // position: relative;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        //background-color: yellow;
         flex-basis: 50%;
+
 
         &__text {
             position: absolute;
             top: 50%;
             right: 0%;
-            transform: translate(-50%, -50%);
+            transform: translate(0%, -50%);
             color: white;
 
             font-size: 9rem;

@@ -1,0 +1,50 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFE92F;
+    flex-basis: 1536px;
+
+    &__header {
+        flex-basis: 20%;
+
+
+        .header__title {
+            font-size: 9rem;
+            text-align: center;
+            margin-top: 67px;
+        }
+
+        .header__text {
+            width: 630px;
+            font-size: 1.7rem;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__photos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        //background-color: blue;
+        flex-basis: 80%;
+
+    }
+
+    .photos-item {
+        margin-bottom: 30px;
+
+
+    }
+
+    .photos-item__image {
+        border: 1px solid #707070;
+        box-shadow: 0px 2px 5px black;
+
+    }
+
+}

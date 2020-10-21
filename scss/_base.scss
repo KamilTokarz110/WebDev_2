@@ -15,3 +15,27 @@ html {
     width: 1200px;
     margin: 0 auto;
 }
+
+.button {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 200px;
+    height: 55px;
+    //background-color: #ff6033;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+
+    &--gallery {
+        margin-top: 15px;
+        background-color: #5585A2;
+    }
+
+    &--header {
+        background-color: #ff6033;
+
+
+    }
+
+}

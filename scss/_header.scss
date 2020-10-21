@@ -17,6 +17,7 @@
         justify-content: space-between;
         align-items: center;
         height: 147px;
+        z-index: 2;
 
         &__list {
             display: flex;
@@ -68,17 +69,12 @@
 
         }
 
-        &__btn {
+        &__button {
 
-            font-size: 2rem;
-            text-transform: uppercase;
-            font-weight: 300;
-            width: 200px;
-            height: 55px;
+
             background-color: #ff6033;
             color: white;
-            border: none;
-            box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.50);
+
 
         }
     }
