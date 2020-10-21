@@ -1,28 +1,80 @@
 .services {
+    position: relative;
     display: flex;
     background-color: black;
+    display: row;
     height: 790px;
     background-color: #70BFFF;
 
     &__content {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
         //background-color: gray;
+    }
+
+    .services__logo {
+        // position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        //background-color: yellow;
+        flex-basis: 50%;
+
+        &__text {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(-50%, -50%);
+            color: white;
+
+            font-size: 9rem;
+            font-weight: bold;
+        }
     }
 }
 
 .content__cards {
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 
 
     &-item {
-        text-align: center;
+        position: relative;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
         background-color: #fff;
         width: 400px;
         height: 100px;
-        margin-bottom: 15px;
+
+        margin-bottom: 20px;
+
+        border: 1px solid #707070;
+        box-shadow: 5px 5px 15px black;
+
+        &__text {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            flex-basis: 80%;
+            margin-left: 15px;
+
+        }
+
+        &__icon {
+            font-size: 4rem;
+            flex-basis: 20%;
+            text-align: center;
+            border-left: 2px solid #9D9D9D;
+            line-height: 100px;
+        }
+
     }
+
+
 }
