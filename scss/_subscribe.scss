@@ -1,0 +1,32 @@
+.subscribe {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-image: url(../images/subscribe__bg.png);
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: right;
+
+    &__title {
+        font-size: 4rem;
+        margin-bottom: 20px;
+
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        width: 572px;
+    }
+
+    &__form {
+        margin-top: 32px;
+
+        .form__input {
+            width: 570px;
+            height: 55px;
+            padding-left: 15px;
+            // color: rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 3px 6px black;
+        }
+    }
+}

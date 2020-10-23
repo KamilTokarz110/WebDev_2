@@ -7,12 +7,10 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
-    //background-color: yellow;
-    //height: 200vh;
 }
 
 .content {
-    width: 1200px;
+    width: 1176px;
     margin: 0 auto;
 }
 
@@ -22,7 +20,7 @@ html {
     font-weight: 300;
     width: 200px;
     height: 55px;
-    //background-color: #ff6033;
+    cursor: pointer;
     color: white;
     border: none;
     box-shadow: 2px 2px 5px black;
@@ -36,6 +34,11 @@ html {
         background-color: #ff6033;
 
 
+    }
+
+    &--subscribe {
+        background-color: #96B92C;
+        margin-left: 30px;
     }
 
 }
