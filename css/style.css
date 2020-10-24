@@ -513,4 +513,135 @@ html {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.contact {
+  -ms-flex-preferred-size: 866px;
+      flex-basis: 866px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/contact__bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.contact__title {
+  font-size: 9rem;
+  margin-top: 80px;
+  margin-bottom: 23px;
+}
+
+.contact__text {
+  text-align: center;
+  width: 570px;
+  font-size: 1.7rem;
+}
+
+.contact__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 45px;
+}
+
+.contact__content .contact__forms {
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  height: 445px;
+}
+
+.contact__content .contact__forms .forms__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact__content .contact__forms .forms__form .form__item {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  opacity: 0.4;
+  background-color: #00C4C4;
+}
+
+.contact__content .contact__forms .forms__form .form__item--active {
+  opacity: 1;
+  border: 1px solid #707070;
+  border-left: 5px solid #355B82;
+  background-color: #00C4C4;
+}
+
+.contact__content .contact__forms .forms__form .form__textarea {
+  resize: none;
+  height: 250px;
+  width: 500px;
+  opacity: 0.4;
+  background-color: #00C4C4;
+}
+
+.contact__content .contact__address {
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  height: 189px;
+}
+
+.contact__content .adrress__title {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.contact__content .adrress__text {
+  font-size: 2rem;
+}
+
+.footer {
+  -ms-flex-preferred-size: 90px;
+      flex-basis: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #262626;
+  color: white;
+  border-top: 1px solid #707070;
+}
+
+.footer__copy-right {
+  font-size: 1.6rem;
+}
+
+.footer__title {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+}
+
+.footer__text {
+  font-size: 1.5rem;
+}
+
+.footer__text--color {
+  font-weight: bold;
+  color: #FF2B58;
+}
 /*# sourceMappingURL=style.css.map */

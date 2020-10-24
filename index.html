@@ -6,6 +6,7 @@
     <title>Web_Dev_2</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -135,13 +136,44 @@
 
     <section class="contact">
         <h1 class="contact__title">Contact</h1>
-        <p class="contant__text">For new projects, ideas, business or anything
+        <p class="contact__text">For new projects, ideas, business or anything
             you'd like to discuss, contact with me!</p>
             <div class="contact__content content">
-                <div class="contact__form">1</div>
-                <div class="contact__addres">2</div>
+                <div class="contact__forms">
+
+                <form class="forms__form" action="send">
+                    <label for="name"><input class="form__item form__item--active" type="text" placeholder="Your name" ></label>
+                    <label for="email"><input class="form__item" type="email" placeholder="Your email..."></label>
+                    <label for="phone"><input class="form__item" type="number" placeholder="Your phone number..."></label>
+                    <textarea class="form__textarea" name="comment" form="forms__form">Enter text here...</textarea>
+
+
+                </form>
+            </div>
+                <div class="contact__address">
+                    <div class="adrress__address">
+                        <h4 class="adrress__title">ADDRESS</h4>
+                        <p class="adrress__text">123 City name, Street, City, Country</p>
+                        
+                    </div>
+                    <div class="adrress__email">
+                        <h4 class="adrress__title">EMAIL</h4>
+                        <p class="adrress__text">cahee@domain.com</p>
+                        </div>
+                        <div class="adrress">
+                            <h4 class="adrress__title">PHONE</h4>
+                            <p class="adrress__text">+012 345 6789</p>
+                        </div>
+                </div>
             </div>
     </section>
+    <footer class="footer">
+        <p class="footer__copy-right">&copy; 2015 Company. All right reserved</p>
+        <h2 class="footer__title">Cahee</h2>
+        <p class="footer__text">Made with <span class="footer__text--color">love</span> by Auskteez</p>
+
+
+    </footer>
         
         
 
