@@ -62,6 +62,8 @@
   text-transform: uppercase;
   line-height: 3rem;
   padding-top: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header .menu__item--active {
@@ -70,8 +72,7 @@
 }
 
 .header .menu__item:hover {
-  border-top: 3px orange solid;
-  padding-top: 0px;
+  font-size: 1.8rem;
 }
 
 .header .menu__link {
@@ -107,6 +108,7 @@
 html {
   font-family: "Raleway", sans-serif;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 .wrapper {

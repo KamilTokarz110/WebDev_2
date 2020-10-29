@@ -24,7 +24,9 @@
             width: 100%;
             height: 80px;
             background-color: white;
-            // justify-content: ;
+            //width: 1176px;
+            //margin: 100px;
+            //justify-content: space-evenly;
         }
 
         &__list {
@@ -39,6 +41,7 @@
             text-transform: uppercase;
             line-height: 3rem;
             padding-top: 3px;
+            transition: 0.5s;
 
             &--active {
                 border-top: 3px orange solid;
@@ -47,8 +50,9 @@
 
 
             &:hover {
-                border-top: 3px orange solid;
-                padding-top: 0px;
+                // border-top: 3px orange solid;
+                // padding-top: 0px;
+                font-size: 1.8rem
             }
 
 
