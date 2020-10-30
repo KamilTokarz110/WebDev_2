@@ -1,5 +1,4 @@
 .services {
-    //position: relative;
     display: flex;
     background-color: black;
     display: row;
@@ -7,9 +6,7 @@
     background-color: #70BFFF;
 
     &__content {
-        ///position: relative;
         display: flex;
-        //background-color: gray;
     }
 
     .services__logo {
@@ -26,7 +23,6 @@
             right: 0%;
             transform: translate(0%, -50%);
             color: white;
-
             font-size: 9rem;
             font-weight: bold;
         }
@@ -48,15 +44,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         background-color: #fff;
         width: 400px;
         height: 100px;
-
         margin-bottom: 20px;
-
         border: 1px solid #707070;
         box-shadow: 5px 5px 15px black;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            color: white;
+            background-color: rgb(250, 100, 0);
+        }
 
         &__text {
             font-size: 2rem;
