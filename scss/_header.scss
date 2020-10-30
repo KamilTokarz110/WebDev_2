@@ -9,24 +9,32 @@
     background-size: cover;
     height: 100vh;
 
+
+
     .menu {
         position: fixed;
         top: 0;
-
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         height: 147px;
         z-index: 2;
         transition: 1s;
 
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         &--scrolled {
-            width: 100%;
-            height: 80px;
-            background-color: white;
-            //width: 1176px;
-            //margin: 100px;
-            //justify-content: space-evenly;
+
+            height: 70px;
+            align-content: center;
+            background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+            border-bottom: 2px solid black;
+            box-shadow: $box-shadow;
+
+
         }
 
         &__list {
@@ -50,8 +58,7 @@
 
 
             &:hover {
-                // border-top: 3px orange solid;
-                // padding-top: 0px;
+
                 font-size: 1.8rem
             }
 

@@ -16,9 +16,10 @@
 
     //Dać do base, powtarzam niepotrzebnie kod.
     &__text {
+        @include text;
         text-align: center;
         width: 570px;
-        font-size: 1.7rem;
+
     }
 
     &__content {
@@ -42,16 +43,21 @@
                     height: 50px;
                     width: 500px;
                     margin-bottom: 15px;
-                    padding-right: 10px;
-                    opacity: 0.4;
-                    background-color: #00C4C4;
+                    padding: 12px 15px;
+                    opacity: 0.5;
+                    background-color: #00c4c4;
+                    transition: 0.5s;
 
-                    &--active {
-                        opacity: 1;
-                        border: 1px solid #707070;
-                        border-left: 5px solid #355B82;
-                        background-color: #00C4C4;
 
+
+
+                    &:focus {
+                        @include placeholder;
+
+                    }
+
+                    &::placeholder {
+                        color: $color-placeholder;
                     }
                 }
 
@@ -59,8 +65,18 @@
                     resize: none;
                     height: 250px;
                     width: 500px;
-                    opacity: 0.4;
+                    padding: 12px 15px;
+                    opacity: 0.5;
                     background-color: #00C4C4;
+                    transition: 0.5s;
+
+                    &:focus {
+                        @include placeholder;
+                    }
+
+                    &::placeholder {
+                        color: $color-placeholder;
+                    }
                 }
             }
         }
@@ -68,9 +84,6 @@
         .contact__address {
             flex-basis: 500px;
             height: 189px;
-
-            //background-color: yellow;
-
         }
 
         .adrress__title {
@@ -80,7 +93,7 @@
 
         .adrress__text {
             font-size: 2rem;
-            //font-weight: lighter;
+
         }
     }
 }

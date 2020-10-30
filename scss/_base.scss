@@ -1,7 +1,6 @@
 html {
     font-family: $special-font;
     font-size: 10px;
-    // overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -25,28 +24,47 @@ html {
     cursor: pointer;
     color: white;
     border: none;
-    box-shadow: 2px 2px 5px black;
-
-    &--gallery {
-        margin-top: 15px;
-        background-color: #5585A2;
-    }
+    box-shadow: $box-shadow;
+    transition: 0.5s;
 
     &--header {
         background-color: #ff6033;
 
-
+        &:hover {
+            background-color: #fa3600;
+        }
     }
+
+    &--gallery {
+        margin-top: 15px;
+        background-color: #5585A2;
+
+        &:hover {
+            background-color: #006aac;
+        }
+    }
+
+
 
     &--subscribe {
         background-color: #96B92C;
         margin-left: 30px;
+
+        &:hover {
+            background-color: #a6dd00;
+        }
     }
 
     &--blog {
         background-color: #F72B3B;
         align-self: center;
         justify-self: center;
+
+
+
+        &:hover {
+            background-color: #fb0015;
+        }
     }
 
 }
