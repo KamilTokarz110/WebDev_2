@@ -42,6 +42,7 @@
             transition: 0.5s;
             cursor: pointer;
 
+<<<<<<< HEAD
             @media(max-width: 1280px) {
                 flex-basis: 310px;
                 height: 250px;
@@ -49,6 +50,8 @@
                 background-size: cover;
             }
 
+=======
+>>>>>>> 5891e7de39b296b297d49a5bc5cc680a34a947c9
             &:hover {
                 transform: scale(1.1);
             }
@@ -97,13 +100,20 @@
                 font-size: 2rem;
                 margin-top: 20px;
                 margin-bottom: 20px;
+<<<<<<< HEAD
                 margin-left: 10px;
+=======
+>>>>>>> 5891e7de39b296b297d49a5bc5cc680a34a947c9
 
             }
 
             .item__author {
+<<<<<<< HEAD
                 font-size: 1.3rem;
                 margin-left: 10px;
+=======
+                font-size: 1.3rem
+>>>>>>> 5891e7de39b296b297d49a5bc5cc680a34a947c9
             }
 
 
