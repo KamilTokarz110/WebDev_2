@@ -8,8 +8,12 @@
     &__logo {
 
 
-        flex: 1;
+        flex-shrink: 1;
         margin-left: 13%;
+
+        &-image {
+            width: 100%;
+        }
 
     }
 
@@ -19,6 +23,7 @@
         color: white;
         flex: 1;
         margin-right: 17%;
+
 
 
         .article__title {

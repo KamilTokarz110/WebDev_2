@@ -13,6 +13,10 @@ html {
 .content {
     width: 1176px;
     margin: 0 auto;
+
+    @media(max-width: 1280px) {
+        width: 1000px;
+    }
 }
 
 .button {

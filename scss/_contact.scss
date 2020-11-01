@@ -7,14 +7,14 @@
     background-position: center;
     background-size: cover;
 
-    //Dać do base, powtarzam niepotrzebnie kod.
+
     &__title {
         font-size: 9rem;
         margin-top: 80px;
         margin-bottom: 23px;
     }
 
-    //Dać do base, powtarzam niepotrzebnie kod.
+
     &__text {
         @include text;
         text-align: center;
@@ -32,11 +32,14 @@
 
             flex-basis: 500px;
             height: 445px;
-            //background-color: gray;
+
 
             .forms__form {
                 display: flex;
                 flex-direction: column;
+
+
+
 
 
                 .form__item {
@@ -47,6 +50,10 @@
                     opacity: 0.5;
                     background-color: #00c4c4;
                     transition: 0.5s;
+
+                    @media(max-width: 1280px) {
+                        width: 400px;
+                    }
 
 
 
@@ -69,6 +76,10 @@
                     opacity: 0.5;
                     background-color: #00C4C4;
                     transition: 0.5s;
+
+                    @media(max-width: 1280px) {
+                        width: 400px;
+                    }
 
                     &:focus {
                         @include placeholder;
