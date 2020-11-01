@@ -12,8 +12,6 @@
 
 
 
-
-
     .menu {
         position: fixed;
         top: 0;
@@ -29,22 +27,12 @@
             align-items: center;
         }
 
-        &__content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         &--scrolled {
 
             height: 70px;
             align-content: center;
             background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-<<<<<<< HEAD
             //border-bottom: 2px solid black;
-=======
-            border-bottom: 2px solid black;
->>>>>>> 5891e7de39b296b297d49a5bc5cc680a34a947c9
             box-shadow: $box-shadow;
 
 
@@ -80,21 +68,22 @@
 
 
 
-    }
-
-    &__link {
-        display: block;
-        text-decoration: none;
-        font-weight: 700;
-        color: black;
-        transition: 0.5s;
-        border-top: 0px orange solid;
-        padding-top: 3px;
 
 
-        &--active {
-            border-top: 3px orange solid;
-            padding-top: 0px;
+        &__link {
+            display: block;
+            text-decoration: none;
+            font-weight: 700;
+            color: black;
+            transition: border-width 0.2s;
+            border-top: 0px orange solid;
+            padding-top: 3px;
+
+
+            &--active {
+                border-top: 3px orange solid;
+                padding-top: 0px;
+            }
         }
     }
 }
@@ -127,6 +116,4 @@
 
 
     }
-}
-
 }
