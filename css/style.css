@@ -220,13 +220,17 @@ html {
 }
 
 .about__logo {
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
   margin-left: 13%;
 }
 
 .about__logo-image {
   width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .about__logo-image {
+    width: 400px;
+  }
 }
 
 .about__article {
@@ -236,6 +240,14 @@ html {
       -ms-flex: 1;
           flex: 1;
   margin-right: 17%;
+  -ms-flex-negative: 2;
+      flex-shrink: 2;
+}
+
+@media (max-width: 1280px) {
+  .about__article {
+    width: 400px;
+  }
 }
 
 .about__article .article__title {
@@ -255,12 +267,55 @@ html {
   width: 499px;
 }
 
+@media (max-width: 1000px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services .services__logo {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+  }
+  .services .services__logo-image {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
 .services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: black;
-  display: row;
   height: 790px;
   background-color: #70BFFF;
 }
@@ -341,6 +396,13 @@ html {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .content__cards-item {
+    font-size: 10px;
+    width: 400px;
+  }
 }
 
 .content__cards-item:hover {

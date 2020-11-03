@@ -30,7 +30,6 @@ window.addEventListener('scroll', event => {
 
     navigationLinks.forEach(link => {
         let section = document.querySelector(link.hash);
-
         if(
             section.offsetTop <= fromTop && 
             section.offsetTop + section.offsetHeight > fromTop
