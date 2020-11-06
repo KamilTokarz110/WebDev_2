@@ -88,6 +88,17 @@
     }
 }
 
+@media(max-width : 720px) {
+    .menu {}
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .article {
 
 

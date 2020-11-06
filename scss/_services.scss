@@ -1,12 +1,12 @@
 @media(max-width: 1000px) {
     .services {
         display: flex;
-        flex-direction: column;
+        //flex-direction: column;
         flex-wrap: wrap;
 
         &__content {
             display: flex;
-            flex-direction: column;
+            // flex-direction: column;
             align-items: center;
         }
 
@@ -44,8 +44,17 @@
 
 
 
+
+
+
     &__content {
         display: flex;
+
+        @media(max-width: 720px) {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .services__logo {
@@ -55,12 +64,20 @@
         justify-content: flex-end;
         flex-basis: 50%;
 
+        @media(max-width: 720px) {
+            flex-basis: 100px;
+        }
+
 
 
         &-image {
 
 
             width: 100%;
+
+            @media(max-width: 720px) {
+                width: 320px;
+            }
 
         }
 
@@ -84,6 +101,10 @@
     align-items: center;
     justify-content: center;
 
+    @media(max-width: 1000px) {
+        margin-top: 20px;
+    }
+
 
 
 
@@ -106,7 +127,8 @@
 
         @media(max-width: 1000px) {
             font-size: 10px;
-            width: 400px;
+            width: 350px;
+            height: 80px;
         }
 
         &:hover {

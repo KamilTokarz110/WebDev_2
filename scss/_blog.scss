@@ -49,6 +49,10 @@
                 background-size: cover;
             }
 
+            @media(max-width: 1000px) {
+                margin-right: 15px;
+            }
+
             &:hover {
                 transform: scale(1.1);
             }
